@@ -24,7 +24,7 @@ class Student
 
   def self.find_by_name(name)
     sql = <<-SQL
-      SELECT * 
+      SELECT *
       FROM students
       WHERE name = ?
     SQL
